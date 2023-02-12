@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fha-wA-JYI">
                                 <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fha-wA-JYI" secondAttribute="height" multiplier="112:57" id="QqB-KM-LuM"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -26,6 +29,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krt-yj-0y8">
                                 <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="krt-yj-0y8" secondAttribute="height" multiplier="112:57" id="fW6-Nd-tWn"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -34,6 +40,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Vn-Ru-Sld">
                                 <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6Vn-Ru-Sld" secondAttribute="height" multiplier="112:57" id="f2H-3n-4Yk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -46,8 +55,11 @@
                         <constraints>
                             <constraint firstItem="krt-yj-0y8" firstAttribute="top" secondItem="fha-wA-JYI" secondAttribute="bottom" constant="30" id="4rg-2z-tE2"/>
                             <constraint firstItem="krt-yj-0y8" firstAttribute="centerX" secondItem="fha-wA-JYI" secondAttribute="centerX" id="8xu-sW-KLG"/>
+                            <constraint firstItem="6Vn-Ru-Sld" firstAttribute="height" secondItem="krt-yj-0y8" secondAttribute="height" id="DPd-cH-NYr"/>
                             <constraint firstItem="6Vn-Ru-Sld" firstAttribute="centerX" secondItem="krt-yj-0y8" secondAttribute="centerX" id="Igz-Ac-LBy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6Vn-Ru-Sld" secondAttribute="bottom" constant="20" id="Z33-pd-rei"/>
                             <constraint firstItem="fha-wA-JYI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hZs-yP-MXU"/>
+                            <constraint firstItem="krt-yj-0y8" firstAttribute="height" secondItem="fha-wA-JYI" secondAttribute="height" id="j4W-9k-wWi"/>
                             <constraint firstItem="6Vn-Ru-Sld" firstAttribute="top" secondItem="krt-yj-0y8" secondAttribute="bottom" constant="30" id="l90-48-5f1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="fha-wA-JYI" secondAttribute="top" constant="3" id="xpE-eC-J6I"/>
                         </constraints>
